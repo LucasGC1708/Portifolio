@@ -1,0 +1,83 @@
+
+
+.skills{
+    padding: 20px;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    display: grid;
+    background-color:#46465a ;
+}
+
+.skills h1{
+    font-size: 2.3em;
+    color: #cfcaec;
+    text-shadow: 0px 0px 5px #cfcaec;
+}
+
+.skills .banner_Skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 20px;
+    margin-top: 6vh;
+}
+
+.skills .banner_Skills .left{
+    padding: 40px 0 40px 0;
+}
+
+.skills .banner_Skills .left .hard_skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5vw;
+    
+}
+
+.skills .banner_Skills .left h2{
+    color: #cfcaec;
+    text-shadow: 0px 0px 5px #cfcaec;
+}
+
+.skills .banner_Skills .left .hard_skills img{
+    width: 100px;
+    margin-top: 6vh;
+}
+
+.skills .banner_Skills .right{
+    padding: 40px 0 40px 0;
+}
+
+.skills .banner_Skills .right .soft_skills{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 5vw;
+}
+
+.skills .banner_Skills .right .soft_skills .duvida img{
+    width: 100%;
+    border-radius: 40px;
+}
+
+.skills .banner_Skills .right .soft_skills .info{
+    display: none;
+    background-color: #7070705e; 
+    padding: 20px;
+    border-radius: 20px;
+    color: #cfcaec;
+    letter-spacing: 1px;
+}
+
+.skills .banner_Skills .right .soft_skills .info h2{
+    margin-bottom: 2vh;
+    font-weight: 900;
+    
+    color:#ca87f1;
+    text-shadow: 0px 0px 5px #E0AAFF;
+}
+
+.skills .banner_Skills .right .soft_skills .info p{
+    padding: 15px;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}

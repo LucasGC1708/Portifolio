@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/config.css">
+    <link rel="stylesheet" href="/assets/header.css">
+    <link rel="stylesheet" href="/assets/banner.css">
+    <link rel="stylesheet" href="/assets/skills.css">
+    <link rel="stylesheet" href="/assets/projetos.css">
+    <link rel="stylesheet" href="/assets/footer.css">
+    <link rel="stylesheet" href="/assets/media.css">
+
+    <script src="https://kit.fontawesome.com/a2c653daa5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Lucas <span>Cruz</span></h1>
+            </div>
+            <div class="nav-list">  
+                <ul>
+                    <li class="nav-item"><i class="fa-solid fa-house"></i><a href="#home" class="nav-link">ínicio</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-user"></i><a href="#skills" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-clipboard"></i><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-phone"></i><a href="#footer" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="/assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><i class="fa-solid fa-house"></i><a href="#home" class="nav-link">ínicio</a></li>
+                <li class="nav-item"><i class="fa-solid fa-user"></i><a href="#skills" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><i class="fa-solid fa-clipboard"></i><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><i class="fa-solid fa-phone"></i><a href="#footer" class="nav-link">Contatos</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="home" class="banner">
+        <div class="left">
+            <h2>Olá, meu nome é Lucas e sou um Desenvolvedor Web</h2>
+            <p>Meu nome é lucas tenho 21 anos e sou um estudante de programação que começou seu caminho na área em 2022. em 2021, meu interesse despertou e decidi me dedicar nesse íncrivel mundo. Uma das qualidades que me define é o meu constante esforço em tudo que faço. Sou uma pessoa que se dedica por completo aos estudos e projetos, não importa quais desafios que eu enfrente pois, acredito que tarefas difíceis são oportunidades para me aprimorar e que estudos contínuos são a chave para se ter sucesso na área.</p>
+            <button><a href="#skills"> Conheça mais</a></button>
+        </div>
+        <div class="right">
+            <img src="/assets/img/eu.jpeg" alt="">
+        </div>
+
+    </section>
+    <section id="skills" class="skills">
+        <h1>Skills</h1>
+        <div class="banner_Skills">
+            
+            <div class="left">
+                <h2>Clique em um ícone</h2>
+                <div class="hard_skills">
+                    <img id="img1" src="/assets/img/css.png" alt="">
+                    <img id="img2" src="/assets/img/html.png" alt="">
+                    <img id="img3" src="/assets/img/js.png" alt="">
+                    <img id="img4" src="/assets/img/sql.png" alt="">
+                </div>
+            </div>
+            <div class="right">
+            
+                <div class="soft_skills">
+                    <div id="pergunta" class="duvida">
+                        <img src="/assets/img/971.jpg" alt="">
+                    </div>
+                    <div id="Css" class="info">
+                        <h2>Progresso CSS</h2>
+                        <p>Com o passar do último ano, venho dedicando tempo e esforços para aprimorar minhas habilidades. Minha trajetoria inclui realizações de trabalhos pessoais e entregas de trabalhos acadêmicos, visando aumentar meu progresso na área de desenvolvimento Web. E por fim quero destacar minha capacidade de aplicar conceitos mais avançados no Css</p>
+                    </div>
+                    <div id="Html" class="info">
+                        <h2>Progresso HTML</h2>
+                        <p>Esta jornada resultou em grandes avanços nos fundamentos do Html, me fazendo desenvolver uma base mais sólida dos seus príncipios praticando em projetos acadêmicos um compromisso maior com acessibilidade e boas práticas</p>
+                    </div>
+                    <div id="javaScript" class="info">
+                        <h2>Progresso JavaScript</h2>
+                        <p>Embora eu tenha um bom conhecimento teórico do JavaScript, ainda me falta prática que ainda está sendo desenvolvida. Estou concentrado a me empenhar para melhorar minha proêficiencia nesta linguagem e também sei de sua importâcia no desenvolvimento Web moderno</p>
+                    </div>
+                    
+                    <div id="Sql" class="info">
+                        <h2>Progresso Sql</h2>
+                        <p>Atualmente sei que minhas habilidades tanto praticas quanto teóricas no Sql ainda está se desenvolvendo mas reconheço o valor do gerenciamento de dados que ele oferece e estou comprometido a melhorar minhas habilidades nesta área que possui uma enorme importância na programação</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="projetos" class="projetos">
+        <h1>Projetos</h1>
+        <div class="filtro">
+            <nav>
+                <ul>
+                    <li id="navFrontEnd">Front-End</li>
+                    <li id="navBackEnd">Back-End</li>
+                    <li id="navFullStack">FullStack</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="trabalhos">
+            <ul>
+                <li class="frontEnd">Front1</li>
+                <li class="frontEnd">Front2</li>
+                <li class="backEnd">Back1</li>
+                <li class="backEnd">Back2</li>
+                <li class="fullStack">Full1</li>
+                <li class="fullStack">Full2</li>
+            </ul>
+        </div>
+    </section>
+    <footer id="footer">
+        <ul class="icones-sociais">
+            <li>
+                <a href="https://github.com/LucasGC1708"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://br.linkedin.com/in/lucas-cruz-421459246?trk=people-guest_people_search-card"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+        <p>Criado por @LucasGustavo</p>
+    </footer>
+    <script>
+        
+        
+        function menuShow() {
+            let menuMobile = document.querySelector('.mobile-menu');
+            if (menuMobile.classList.contains('open')) {
+                menuMobile.classList.remove('open');
+                document.querySelector('.icon').src = "assets/img/menu_white_36dp.svg";
+            } else {
+                menuMobile.classList.add('open');
+                document.querySelector('.icon').src = "assets/img/close_white_36dp.svg";
+            }
+        }
+           
+
+        var misterio = document.getElementById('pergunta')
+        var img1 = document.getElementById('img1')
+        var img2 = document.getElementById('img2')
+        var img3 = document.getElementById('img3')
+        var img4 = document.getElementById('img4')
+        
+       
+
+       var infoCss = document.getElementById("Css")
+       var infoHtml = document.getElementById("Html")
+       var infoJavaScript = document.getElementById("javaScript")
+       var infoSql = document.getElementById("Sql")
+
+
+        img1.addEventListener('click', function(){
+
+            
+            
+
+            if(infoCss.style.display === "none"){
+                infoCss.style.display = "block"
+                img1.style.opacity = ".6"
+                infoHtml.style.display = "none"
+                infoJavaScript.style.display = "none"
+                infoSql.style.display = "none"
+                misterio.style.display="none"
+                img2.style.opacity = "1"
+                img3.style.opacity = "1"
+                img4.style.opacity = "1"
+            }else{
+                misterio.style.display="block"
+                infoCss.style.display = "none"
+                img1.style.opacity = "1"
+
+            }
+        })
+
+        img2.addEventListener('click', function(){
+
+
+            
+
+            if(infoHtml.style.display === "none"){
+                infoHtml.style.display = "block"
+                img2.style.opacity = ".6"
+                infoCss.style.display = "none"
+                infoJavaScript.style.display = "none"
+                infoSql.style.display = "none"
+                misterio.style.display="none"
+                img1.style.opacity = "1"
+                img3.style.opacity = "1"
+                img4.style.opacity = "1"
+                
+            }else{
+                misterio.style.display="block"
+                infoHtml.style.display = "none"
+                img2.style.opacity = "1"
+
+            }
+        })
+
+        img3.addEventListener('click', function(){
+
+            
+
+            if(infoJavaScript.style.display === "none"){
+                infoJavaScript.style.display = "block"
+                img3.style.opacity = ".6"
+                infoCss.style.display = "none"
+                infoHtml.style.display = "none"
+                infoSql.style.display = "none"
+                misterio.style.display="none"
+                img1.style.opacity = "1"
+                img2.style.opacity = "1"
+                img4.style.opacity = "1"
+            }else{
+                misterio.style.display="block"
+                infoJavaScript.style.display = "none"
+                img3.style.opacity = "1"
+
+            }
+        })
+
+        img4.addEventListener('click', function(){
+
+            
+
+            if(infoSql.style.display === "none"){
+                infoSql.style.display = "block"
+                img4.style.opacity = ".6"
+                infoCss.style.display = "none"
+                infoJavaScript.style.display = "none"
+                infoHtml.style.display = "none"
+                misterio.style.display="none"
+                img1.style.opacity = "1"
+                img2.style.opacity = "1"
+                img3.style.opacity = "1"
+            }else{
+                misterio.style.display="block"
+                infoSql.style.display = "none"
+                img4.style.opacity = "1"
+
+            }
+        })
+
+        function typeWriter(elemento){
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+                setTimeout(()=>
+                    elemento.innerHTML += letra, 110*i);
+            });
+        }
+
+        const titulo = document.querySelector('h2')
+        typeWriter(titulo)
+
+/*
+        const acharFront = document.getElementById('navFrontEnd')
+        const acharBack = document.getElementById('navBackEnd')
+        const acharFull = document.getElementById('navFullStack')
+
+        var projetos = document.querySelectorAll('.trabalhos ul li')
+
+        acharFront.addEventListener('click', function(){
+            if(projetos[0].style.display='none'){
+                projetos[0].style.display='block'
+                projetos[1].style.display='block'
+            }else{
+                projetos[0].style.display='none'
+                projetos[1].style.display='none'
+            }           
+        })
+
+*/
+        const acharFront = document.getElementById('navFrontEnd')
+        const acharBack = document.getElementById('navBackEnd')
+        const acharFull = document.getElementById('navFullStack')
+    
+
+         var pegaFront = document.querySelectorAll('.frontEnd')
+         var pegaBack = document.querySelectorAll('.backEnd')
+         var pegaFull = document.querySelectorAll('.fullStack')
+
+         acharFront.addEventListener('click',function(){
+
+            if(pegaFront[0].style.display === 'none')
+            {
+               
+                pegaFront[0].style.display = 'block';
+                pegaFront[1].style.display = 'block';
+                pegaBack[0].style.display = 'none';
+                pegaBack[1].style.display = 'none';
+                pegaFull[0].style.display = 'none';
+                pegaFull[1].style.display = 'none';
+                
+            }else{
+                pegaFront[0].style.display = 'none';
+                pegaFront[1].style.display = 'none';
+            }
+        })
+
+         acharBack.addEventListener('click',function(){
+
+            if(pegaBack[0].style.display === 'none')
+            {
+                
+                pegaBack[0].style.display = 'block';
+                pegaBack[1].style.display = 'block';
+                pegaFront[0].style.display = 'none';
+                pegaFront[1].style.display = 'none';
+                pegaFull[0].style.display = 'none';
+                pegaFull[1].style.display = 'none';
+                
+            }else{
+                pegaBack[0].style.display = 'none';
+                pegaBack[1].style.display = 'none';
+            }
+        })
+
+        
+
+        acharFull.addEventListener('click',function(){
+
+            if(pegaFull[0].style.display === 'none')
+            {
+                
+                pegaFull[0].style.display = 'block';
+                pegaFull[1].style.display = 'block';
+                pegaFront[0].style.display = 'none';
+                pegaFront[1].style.display = 'none';
+                pegaBack[0].style.display = 'none';
+                pegaBack[1].style.display = 'none';
+                
+            }else{
+                pegaFull[0].style.display = 'none';
+                pegaFull[1].style.display = 'none';
+            }
+        })
+
+
+
+    </script>
+</body>
+</html>
+
